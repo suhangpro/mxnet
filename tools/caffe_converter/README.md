@@ -21,7 +21,9 @@ Run ```python convert_model.py caffe_prototxt caffe_model save_model_name``` to 
 
 
 Or use `./run.sh model_name` to download and convert a model. Sample usage:
-`./run.sh vgg19`
+`./run.sh vgg-19`
+
+Currently, supported models are: [vgg-m](https://gist.github.com/ksimonyan/f194575702fae63b2829), [vgg-16](https://gist.github.com/ksimonyan/211839e770f7b538e2d8), [vgg-19](https://gist.github.com/ksimonyan/3785162f95cd2d5fee77)
 
 ## Note
 
